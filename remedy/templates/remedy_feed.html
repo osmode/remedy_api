@@ -1,0 +1,23 @@
+<html>
+	<head>
+	<title>Remedy on Glass</title>
+	<link rel="stylesheet" href="/static/style.css">
+	<h1 id="title">Remedy for Glass</h1><br>
+	</head>
+	<body>
+	<h1 id="normaltext">Videos</h1>
+	{% for filename in video_list %}
+	<video width="640" height="480" controls>
+	<source src="{{filename}}" type="video/mp4">
+	</video>
+	{% endfor %}
+
+	<h1 id="normaltext">Images</h1><br><br>
+	{% for filename in photo_list %}
+	<img src="{{filename}}" alt="photo">
+	<br><br>
+	{% endfor %}
+	<br>
+	</body>
+</html>
+

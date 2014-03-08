@@ -1,0 +1,58 @@
+ul {
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+li {
+float:left;
+}
+a:link,a:visited {
+display:block;
+width:120px;
+color:#9E9E9E;
+background-color:#FFFFFF;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+font-family:"Arial", Arial, serif
+}
+
+a:hover,a:active {
+background-color:#FFFFFF;
+color:#000000
+}
+
+#title {
+font-size:40px;
+font-family:"Arial", Arial, serif;
+color:#FF6666;
+margin-left:20px
+}
+
+#quote {
+font-size:18px;
+font-family:"Arial",Arial, sans-serif;
+color:#878787;
+margin-left:20px
+}
+
+#redspotlight {
+color:#000000;
+font-size:18px;
+font-family:"Arial", Arial, sans-serif;
+margin-left:20px;
+margin-right:40px;
+padding:20px;
+background-color:#FFEBEB;
+line-height:150%
+}
+
+#normaltext {
+color:#000000;
+font-size:18px;
+font-family:"Arial",Arial,sans-serif;
+margin-left:20px
+}
+
